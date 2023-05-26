@@ -2,7 +2,7 @@
     /* height: 500px; */
     overflow-y: auto;
     background-color: #3C3C3C;
-    color: #ffffff;
+    color: #C4C4C4;
     padding: 35px 45px;
     font-size: 30px;
     line-height: 1.42;
@@ -23,7 +23,26 @@
 
 .terminal__prompt__label {
     flex: 0 0 auto;
-    color: #fff700;
+    color: #2d88ff;
+    font-weight: bold;
+}
+
+.terminal__prompt__label1 {
+    flex: 0 0 auto;
+    color: #fbff00;
+    font-weight: bold;
+}
+
+.terminal__prompt__label2 {
+    flex: 0 0 auto;
+    color: #ff63f2;
+    font-weight: bold;
+}
+
+.terminal__prompt__label3 {
+    flex: 0 0 auto;
+    color: #ff0000;
+    font-weight: bold;
 }
 
 .terminal__prompt__input {
@@ -31,7 +50,35 @@
     margin-left: 1rem;
     display: flex;
     align-items: center;
-    color: #00ff00;
+    color: #39ff14;
+    font-weight: bold;
+}
+
+.terminal__prompt__input1 {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: #ff63f2;
+    font-weight: bold;
+}
+
+.terminal__prompt__input2 {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: #fbff00;
+    font-weight: bold;
+}
+
+.terminal__prompt__input3 {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: #00FCFF;
+    font-weight: bold;
 }
 
 /* .terminal__prompt__input input {
